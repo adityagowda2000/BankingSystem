@@ -141,6 +141,7 @@ void modifyAccount(int sfd)
 		{
 			account.userCount=2;
 			strcpy(account.user2,newname);
+			strcpy(account.pass2,newname); //bug 1 fixed
 		}
 		status=write(sfd,&account,sizeof(account));
 		printf("Modifications completed\n");
