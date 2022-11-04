@@ -3,6 +3,7 @@
 ./initilize => to reset all the data in files
 
 ./server => server has printf statements , so don't run it in background
+
 ./client => to run client
 
 Steps to run program:
