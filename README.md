@@ -26,8 +26,7 @@ USER-
 BUGS TO BE FIXED:-
 1. When a single user account is converted into join user account by adding secondary user by admin then secondary user is not able to login. ✅
 2. insted of scanf("%s"...); use scanf(" %[^\n]%".....);
-3. add feature to create new admin 
-4. add a feature for transaction from one user to another user
+
 
   
  
