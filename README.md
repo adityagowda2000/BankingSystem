@@ -1,4 +1,4 @@
-# SS-MiniProject
+# BankingSystem in C using system calls
 
 ./initilize => to reset all the data in files
 
