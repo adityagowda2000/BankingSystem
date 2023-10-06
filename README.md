@@ -1,23 +1,44 @@
-# BankingSystem in C using system calls
+```plaintext
+# Banking System in C Using System Calls
 
-./initilize => to reset all the data in files
+This is a simple banking system implemented in C, utilizing system calls for file operations. The system consists of three main components: `initialize`, `server`, and `client`.
 
-./server => server has printf statements , so don't run it in background
+## Initialization
+To reset all data in the files, run the following command:
+```
+./initialize
+```
 
-./client => to run client
+## Server
+The server component has `printf` statements for logging purposes, so it should not be run in the background. You can start the server with the following command:
+```
+./server
+```
 
-Steps to run program:
+## Client
+Use the client component to interact with the banking system. To run the client, use the following command:
+```
+./client
+```
 
-ADMIN:-
-1. log into admin with password  'aditya'
+## Usage
 
-2. create new user account. 
-  a. account ID will be assigned.
-    eg: P 1 for first user 
-        S 1 for second user [if single user account then there will be no second user]
-        by default the password for newly created account will be the user name.
- 
-USER-
+### Admin
 
-1. log in with user id and password.
-  eg:  userid: P 1 => here P indicates that he is primary user 
+1. Log in as an admin with the password 'aditya'.
+
+2. Create a new user account. 
+   - An account ID will be assigned.
+     - For example, `P 1` for the first user.
+     - `S 1` for the second user (if it's a single user account, there will be no second user).
+   - By default, the password for the newly created account will be set to the user name.
+
+### User
+
+1. Log in as a user using the user ID and password.
+   - Example user ID: `P 1` (the 'P' indicates a primary user).
+
+Please ensure you follow these steps to use the banking system effectively. If you have any questions or encounter issues, refer to the README for guidance.
+
+Feel free to modify this README file to include additional instructions or information specific to your implementatio
+```
